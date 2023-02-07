@@ -1,0 +1,6 @@
+cffi==1.15.1
+dearpygui==1.8.0
+numpy==1.24.2
+pycparser==2.21
+sounddevice==0.4.5
+soundfile==0.11.0
