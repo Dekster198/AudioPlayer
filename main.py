@@ -9,7 +9,7 @@ def main():
 
     dpg.create_viewport(title='Media Player', width=600, height=500)
 
-    with dpg.window(width=600, height=500):
+    with dpg.window(tag='main_window', width=600, height=500):
         with dpg.menu_bar():
             with dpg.menu(label="File"):
                 dpg.add_menu_item(label="Select file", callback=player.selectFile)
